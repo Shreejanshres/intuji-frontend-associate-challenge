@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<link rel="stylesheet" href="styles/index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet" />
+	</head>
+	<body>
+		<div class="outer-container">
+			<div class="sidebar">
+				<div class="logo">
+					<img src="resources/logo.jpeg" alt="logo" />
+				</div>
+				<div class="menu">
+					<ul>
+						<li class="active-link">
+							<a href="#">
+								<svg width="1.5rem" height="1.5rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M21.5 10.9V4.1C21.5 2.6 20.86 2 19.27 2H15.23C13.64 2 13 2.6 13 4.1V10.9C13 12.4 13.64 13 15.23 13H19.27C20.86 13 21.5 12.4 21.5 10.9Z" fill="#f1c40f" />
+									<path d="M11 13.1V19.9C11 21.4 10.36 22 8.77 22H4.73C3.14 22 2.5 21.4 2.5 19.9V13.1C2.5 11.6 3.14 11 4.73 11H8.77C10.36 11 11 11.6 11 13.1Z" fill="#f1c40f" />
+									<path
+										d="M21.5 19.9V17.1C21.5 15.6 20.86 15 19.27 15H15.23C13.64 15 13 15.6 13 17.1V19.9C13 21.4 13.64 22 15.23 22H19.27C20.86 22 21.5 21.4 21.5 19.9Z"
+										fill="#f1c40f" />
+									<path d="M11 6.9V4.1C11 2.6 10.36 2 8.77 2H4.73C3.14 2 2.5 2.6 2.5 4.1V6.9C2.5 8.4 3.14 9 4.73 9H8.77C10.36 9 11 8.4 11 6.9Z" fill="#f1c40f" />
+								</svg>
+								Dashboard</a
+							>
+						</li>
+						<li>
+							<a href="#"><img src="assets/icons/calendar.svg" alt="calendar" />Schedule</a>
+						</li>
+						<li>
+							<a href="#"><img src="assets/icons/sms.svg" alt="sms" />Message</a>
+						</li>
+						<li>
+							<a href="#"><img src="assets/icons/chart-1.svg" alt="chart-1" />Analytics</a>
+						</li>
+						<li>
+							<a href="#"><img src="assets/icons/profile-2user.svg" alt="profile-2user" />Team</a>
+						</li>
+					</ul>
+					<hr />
+					<ul>
+						<li>
+							<a href="#"><img src="assets/icons/user.svg" alt="user" />Profile</a>
+						</li>
+						<li>
+							<a href="#"><img src="assets/icons/setting.svg" alt="setting" />Settings</a>
+						</li>
+					</ul>
+				</div>
+				<div class="sidebar-end">
+					<ul>
+						<li>
+							<a href="#"><img src="assets/icons/info-circle.svg" alt="info-circle" />Help</a>
+						</li>
+						<li>
+							<a href="#"><img src="assets/icons/login.svg" alt="loing" />Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-content">
+				<div class="content-header">
+					<div class="search-bar">
+						<span class="search-icon">
+							<img src="assets/icons/search-normal-1.svg" alt="search-icon" />
+						</span>
+						<input type="text" placeholder="Search here..." />
+					</div>
+					<div class="mini-menu">
+						<div class="notify-icon">
+							<img src="assets/icons/notification-bing.svg" alt="notification" />
+						</div>
+						<div class="message-icon">
+							<img src="assets/icons/message-text.svg" alt="message" />
+						</div>
+						<div class="profile">
+							<div class="profile-icon">
+								<img src="assets/icons/gallery.svg" alt="profile" />
+							</div>
+							<div class="profilename">
+								<p>Mirie Kirtani</p>
+							</div>
+						</div>
+						<div class="dropdown">
+							<img src="assets/icons/arrow-down.svg" alt="arrow down" />
+						</div>
+					</div>
+				</div>
+				<div class="content-body">
+					<div class="content-top">
+						<div class="content-top-left">
+							<h1>Overview</h1>
+							<div class="card-container">
+								<div class="card card-1">
+									<div class="card-header">
+										<div class="wallet-icon">
+											<img src="assets/icons/empty-wallet.svg" alt="wallet" />
+										</div>
+										<div class="header-1">
+											<h2>Your Balance</h2>
+											<h3>
+												<span>
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="#3BBB6E" xmlns="http://www.w3.org/2000/svg">
+														<path
+															opacity="0.4"
+															d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z"
+															fill="#31D3A3" />
+														<path
+															d="M16.7475 7H11.9175C11.5075 7 11.1675 7.34 11.1675 7.75C11.1675 8.16 11.5075 8.5 11.9175 8.5H14.9375L7.2175 16.22C6.9275 16.51 6.9275 16.99 7.2175 17.28C7.3675 17.43 7.5575 17.5 7.7475 17.5C7.9375 17.5 8.1275 17.43 8.2775 17.28L15.9975 9.56V12.58C15.9975 12.99 16.3375 13.33 16.7475 13.33C17.1575 13.33 17.4975 12.99 17.4975 12.58V7.75C17.4975 7.34 17.1575 7 16.7475 7Z"
+															fill="#31D3A3" />
+													</svg>
+												</span>
+												15 % compared with last month
+											</h3>
+										</div>
+									</div>
+									<hr style="width: 90%; margin-left: 1rem; margin-top: 2px" />
+									<div class="card-content">
+										<p>$28,891.138</p>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
+												stroke="#FFF"
+												stroke-width="1.5"
+												stroke-miterlimit="10"
+												stroke-linecap="round"
+												stroke-linejoin="round" 
+                                                />
+											<path d="M11.0098 12H20.3298" stroke="#fff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M3.5 12H6.97" stroke="#FFF" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+
+								<div class="card card-2">
+									<div class="card-header">
+										<div class="bookmark-icon">
+											<img class="save-icon" src="assets/icons/save-2.svg" alt="save-2" />
+										</div>
+										<div class="header-1">
+											<h2>Saving</h2>
+											<h3>
+												<span>
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path
+															opacity="0.4"
+															d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z"
+															fill="#FE3766" />
+														<path
+															d="M16.7475 7H11.9175C11.5075 7 11.1675 7.34 11.1675 7.75C11.1675 8.16 11.5075 8.5 11.9175 8.5H14.9375L7.2175 16.22C6.9275 16.51 6.9275 16.99 7.2175 17.28C7.3675 17.43 7.5575 17.5 7.7475 17.5C7.9375 17.5 8.1275 17.43 8.2775 17.28L15.9975 9.56V12.58C15.9975 12.99 16.3375 13.33 16.7475 13.33C17.1575 13.33 17.4975 12.99 17.4975 12.58V7.75C17.4975 7.34 17.1575 7 16.7475 7Z"
+															fill="#FE3766" />
+													</svg> </span
+												>10 % compared with last month
+											</h3>
+										</div>
+									</div>
+									<hr style="width: 90%; margin-left: 1rem; margin-top: 2px" />
+									<div class="card-content">
+										<p>$1050.44</p>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
+												stroke="currentColor"
+												stroke-width="1.5"
+												stroke-miterlimit="10"
+												stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M11.0098 12H20.3298" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M3.5 12H6.97" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+
+								<div class="card card-3">
+									<div class="card-header">
+										<img class="direct-up" src="assets/icons/direct-up.svg" alt="direct-up" />
+										<div class="header-1">
+											<h2>Expenses</h2>
+											<h3>
+												<span>
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path
+															opacity="0.4"
+															d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z"
+															fill="#F9BA33" />
+														<path
+															d="M16.7475 7H11.9175C11.5075 7 11.1675 7.34 11.1675 7.75C11.1675 8.16 11.5075 8.5 11.9175 8.5H14.9375L7.2175 16.22C6.9275 16.51 6.9275 16.99 7.2175 17.28C7.3675 17.43 7.5575 17.5 7.7475 17.5C7.9375 17.5 8.1275 17.43 8.2775 17.28L15.9975 9.56V12.58C15.9975 12.99 16.3375 13.33 16.7475 13.33C17.1575 13.33 17.4975 12.99 17.4975 12.58V7.75C17.4975 7.34 17.1575 7 16.7475 7Z"
+															fill="#F9BA33" />
+													</svg> </span
+												>2 % compared with last month
+											</h3>
+										</div>
+									</div>
+									<hr style="width: 90%; margin-left: 1rem; margin-top: 2px" />
+									<div class="card-content">
+										<p>$200.31</p>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
+												stroke="currentColor"
+												stroke-width="1.5"
+												stroke-miterlimit="10"
+												stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M11.0098 12H20.3298" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M3.5 12H6.97" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+
+								<div class="card card-4">
+									<div class="card-header">
+										<img class="direct-down" src="assets/icons/direct-down.svg" alt="direct-down" />
+										<div class="header-1">
+											<h2>Incomes</h2>
+											<h3>
+												<span>
+													<svg width="24" height="24" viewBox="0 0 24 24" fill="1775E4" xmlns="http://www.w3.org/2000/svg">
+														<path
+															opacity="0.4"
+															d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2Z"
+															fill="#1775E4" />
+														<path
+															d="M16.7475 7H11.9175C11.5075 7 11.1675 7.34 11.1675 7.75C11.1675 8.16 11.5075 8.5 11.9175 8.5H14.9375L7.2175 16.22C6.9275 16.51 6.9275 16.99 7.2175 17.28C7.3675 17.43 7.5575 17.5 7.7475 17.5C7.9375 17.5 8.1275 17.43 8.2775 17.28L15.9975 9.56V12.58C15.9975 12.99 16.3375 13.33 16.7475 13.33C17.1575 13.33 17.4975 12.99 17.4975 12.58V7.75C17.4975 7.34 17.1575 7 16.7475 7Z"
+															fill="#1775E4" />
+													</svg> </span
+												>8 % compared with last month
+											</h3>
+										</div>
+									</div>
+									<hr style="width: 90%; margin-left: 1rem; margin-top: 2px" />
+									<div class="card-content">
+										<p>$21,121.0</p>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M14.4297 5.92993L20.4997 11.9999L14.4297 18.0699"
+												stroke="currentColor"
+												stroke-width="1.5"
+												stroke-miterlimit="10"
+												stroke-linecap="round"
+												stroke-linejoin="round" />
+											<path d="M11.0098 12H20.3298" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M3.5 12H6.97" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-top-right">
+							<div class="header">
+								<h1>Saving Plan</h1>
+								<p>See All</p>
+							</div>
+							<hr style="widht: 90%; margin-top: 4px; margin-bottom: 2rem" />
+							<div class="goal">
+								<div class="goal-header">
+									<h3>Bali Vacation</h3>
+									<span class="target-date">Target: August 25 2022</span>
+								</div>
+								<div class="amount">
+									<div class="amount-digit">
+										<span class="current">$1950,21</span>
+										<span class="total">/ $4000</span>
+									</div>
+									<span class="percentage purple">48%</span>
+								</div>
+								<div class="progress-bar">
+									<div class="filled purple-bar" style="width: 48%"></div>
+								</div>
+							</div>
+							<div class="goal">
+								<div class="goal-header">
+									<h3>New Gadget</h3>
+									<span class="target-date">Target: August 25 2022</span>
+								</div>
+								<div class="amount">
+									<div class="amount-digit">
+										<span class="current">$790.21</span>
+										<span class="total">/ $1000</span>
+									</div>
+									<span class="percentage yellow">79%</span>
+								</div>
+								<div class="progress-bar">
+									<div class="filled yellow-bar" style="width: 79%"></div>
+								</div>
+							</div>
+							<div class="goal">
+								<div class="goal-header">
+									<h3>Charity</h3>
+									<span class="target-date">Target: August 25 2022</span>
+								</div>
+								<div class="amount">
+									<div class="amount-digit">
+										<span class="current">$32.11</span>
+										<span class="total">/ $100</span>
+									</div>
+									<span class="percentage green">32%</span>
+								</div>
+								<div class="progress-bar">
+									<div class="filled green-bar" style="width: 32%"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content-bottom">
+						<div class="content-bottom-left">
+							<div class="content-header">
+								<h1>Analytics</h1>
+								<div class="headerleft">
+									<div class="label1">
+										<div class="circle blue"></div>
+										<p>Label1</p>
+									</div>
+									<div class="label1">
+										<div class="circle yellow"></div>
+										<p>Label2</p>
+									</div>
+									<dropdown>
+										<select name="dropdown" id="dropdown">
+											<option value="Daily">Daily</option>
+											<option value="Weekly" selected>Weekly</option>
+											<option value="Monthly">Monthly</option>
+										</select>
+									</dropdown>
+								</div>
+							</div>
+							<div class="content-graph">
+								<img src="assets/images/Graph.png" alt="graph" class="graph" />
+							</div>
+						</div>
+						<div class="content-bottom-right">
+							<div class="header">
+								<h1>Recent Transaction</h1>
+								<p>See All</p>
+							</div>
+							<hr style="widht: 90%; margin-bottom: 1.5rem" />
+							<div class="transactions">
+								<div class="transaction">
+									<div class="transaction-name">
+										<img src="assets/icons/gallery.svg" alt="imgage" class="transaction-icon" />
+										<div class="transaction-details">
+											<h3>Figma</h3>
+											<p>August 20 2022</p>
+										</div>
+									</div>
+									<div class="transaction-amount">
+										<h3 class="amount">$ 100</h3>
+										<p class="status">Completed</p>
+									</div>
+								</div>
+								<div class="transaction">
+									<div class="transaction-name">
+										<img src="assets/icons/gallery.svg" alt="imgage" class="transaction-icon" />
+										<div class="transaction-details">
+											<h3>Youtube</h3>
+											<p>August 20 2022</p>
+										</div>
+									</div>
+									<div class="transaction-amount">
+										<h3 class="amount">$ 120</h3>
+										<p class="status">Completed</p>
+									</div>
+								</div>
+								<div class="transaction">
+									<div class="transaction-name">
+										<img src="assets/icons/gallery.svg" alt="imgage" class="transaction-icon" />
+										<div class="transaction-details">
+											<h3>Spotify</h3>
+											<p>August 20 2022</p>
+										</div>
+									</div>
+									<div class="transaction-amount">
+										<h3 class="amount">$ 15</h3>
+										<p class="status">Completed</p>
+									</div>
+								</div>
+								<div class="transaction">
+									<div class="transaction-name">
+										<img src="assets/icons/gallery.svg" alt="imgage" class="transaction-icon" />
+										<div class="transaction-details">
+											<h3>Freepik</h3>
+											<p>August 20 2022</p>
+										</div>
+									</div>
+									<div class="transaction-amount">
+										<h3 class="amount">$ 300</h3>
+										<p class="status">Completed</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+    <script src="js/scripts.js"></script>
+</html>
